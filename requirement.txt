@@ -1,0 +1,5 @@
+Flask
+Streamlit
+Groq
+PyPDF2
+docx
