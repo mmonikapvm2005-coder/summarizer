@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Groq Summarizer</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            padding: 40px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            width: 420px;
+            margin: auto;
+            border-radius: 8px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Summarize Your File</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".txt" required><br><br>
+
+        <label>Output format</label><br>
+        <select name="format">
+            <option value="txt">Text</option>
+            <option value="pdf">PDF</option>
+            <option value="word">Word</option>
+        </select>
+
+        <button type="submit">Summarize</button>
+    </form>
+</div>
+
+</body>
+</html>
