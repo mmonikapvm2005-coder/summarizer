@@ -1,5 +1,6 @@
-Flask
-Streamlit
+streamlit
 groq
+python-docx
 PyPDF2
-docx
+reportlab
+
