@@ -1,6 +1,5 @@
-streamlit
-groq
+streamlit>=1.30.0
+groq==0.9.0
 python-docx
 PyPDF2
 reportlab
-
